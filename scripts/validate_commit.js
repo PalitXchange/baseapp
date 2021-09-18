@@ -1,3 +1,4 @@
+  
 #!/usr/bin/env node
 
 const fs = require('fs');
@@ -15,7 +16,6 @@ const main = argv => {
         if (right) {
             console.error(`
 ${chalk.red(right)}: ${line}
-
 Please read the commit message guidelines: ${chalk.blue.bold('http://chris.beams.io/posts/git-commit/')}
 `);
             return 1;
